@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.f69293b4.css",
+    "main.js": "/Portfolio/static/js/main.0ea4ce4d.js",
+    "static/media/Flavour.png": "/Portfolio/static/media/Flavour.e80956eeae1df36d1ed7.png",
+    "static/media/LogoCaue.png": "/Portfolio/static/media/LogoCaue.cf64d8abd8bc0a41d375.png",
+    "static/media/Farmicon.png": "/Portfolio/static/media/Farmicon.0d3975e188c3c45a5214.png",
+    "index.html": "/Portfolio/index.html",
+    "main.f69293b4.css.map": "/Portfolio/static/css/main.f69293b4.css.map",
+    "main.0ea4ce4d.js.map": "/Portfolio/static/js/main.0ea4ce4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f69293b4.css",
+    "static/js/main.0ea4ce4d.js"
+  ]
+}
