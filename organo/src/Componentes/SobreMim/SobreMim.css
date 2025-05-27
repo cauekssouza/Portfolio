@@ -1,0 +1,63 @@
+.sobre-mim {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.sobre-mim h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #4a4aee;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.descricao {
+  text-align: justify;
+  color: #444;
+  margin-top: 20px;
+}
+
+.formacao h3 {
+  margin-top: 25px;
+  color: #222;
+}
+
+.formacao ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.icones {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.icon {
+  font-size: 32px;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.icon.whatsapp {
+  color: #25d366;
+}
+
+.icon.github {
+  color: #333;
+}
+
