@@ -23,7 +23,7 @@ const SkillsSection = () => {
       color: "text-purple-500"
     },
     {
-      title: "Ferramentas",
+      title: "Tools",
       icon: Wrench,
       skills: ["Excel", "Insomnia", "Git", "Github", "Figma", "VSCODE", "Scrum", "Kanban", "Linux", "SharePoint", "Power BI"],
       color: "text-orange-500"
@@ -31,17 +31,17 @@ const SkillsSection = () => {
   ];
 
   const softSkills = [
-    "Comunicação", "Colaboração", "Trabalho em Equipe", "Adaptabilidade",
-    "Organização", "Proatividade", "Criatividade", "Capacidade de Aprender", "Empatia"
+    "Communication", "Collaboration", "Teamwork", "Adaptability",
+    "Organization", "Proactivity", "Creativity", "Ability to Learn", "Empathy"
   ];
 
   return (
     <section className="py-20 bg-muted/50">
       <div className="container mx-auto px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Habilidades</h2>
+          <h2 className="text-4xl font-bold mb-4">Skills</h2>
           <p className="text-xl text-muted-foreground">
-            Tecnologias e competências que domino para criar soluções incríveis
+            Technologies and skills I master to build amazing solutions
           </p>
         </div>
 

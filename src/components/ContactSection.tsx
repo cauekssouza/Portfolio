@@ -12,14 +12,14 @@ const ContactSection = () => {
     },
     {
       icon: Phone,
-      label: "Telefone",
+      label: "Phone",
       value: "+51 419921-0636",
       href: "tel:+554199921-0636"
     },
     {
       icon: MapPin,
-      label: "Localização",
-      value: "Curitiba, Paraná",
+      label: "Location",
+      value: "Curitiba, Paraná, Brazil",
       href: null
     },
     {
@@ -31,24 +31,24 @@ const ContactSection = () => {
   ];
 
   const interests = [
-    "Tecnologia", "Inteligência Artificial", "Músicas", "Filmes e Séries", 
-    "Noticiários", "Assuntos diversos", "Games", "Teatro"
+    "Technology", "Artificial Intelligence", "Music", "Movies & TV Shows", 
+    "News", "General Topics", "Gaming", "Theater"
   ];
 
   return (
     <section className="py-20 bg-muted/50">
       <div className="container mx-auto px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Vamos Conversar?</h2>
+          <h2 className="text-4xl font-bold mb-4">Let's Talk?</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Estou sempre aberto a novas oportunidades e parcerias. Entre em contato comigo!
+            I'm always open to new opportunities and partnerships. Feel free to get in touch!
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {}
           <div>
-            <h3 className="text-2xl font-semibold mb-8">Informações de Contato</h3>
+            <h3 className="text-2xl font-semibold mb-8">Contact Information</h3>
             <div className="grid gap-4">
               {contactInfo.map((contact, index) => (
                 <Card key={index} className="p-6 transition-all hover:shadow-md">
@@ -78,10 +78,10 @@ const ContactSection = () => {
 
             {}
             <Card className="mt-8 p-6 bg-accent text-accent-foreground">
-              <h4 className="text-lg font-semibold mb-3">Pronto para começar minha carreira!</h4>
+              <h4 className="text-lg font-semibold mb-3">Ready to start my career!</h4>
               <p className="mb-4 text-accent-foreground/90">
-                Estou em busca de oportunidades como Estágio, Jovem Aprendiz, Junior ou Trainee 
-                em desenvolvimento web front-end. Vamos criar algo incrível juntos!
+                I'm looking for opportunities as an Intern, Apprentice, Junior, or Trainee 
+                in front-end web development. Let's build something amazing together!
               </p>
               <Button 
                 variant="secondary" 
@@ -89,17 +89,17 @@ const ContactSection = () => {
                 size="lg"
               >
                 <Send className="w-4 h-4 mr-2" />
-                Enviar Mensagem
+                Send Message
               </Button>
             </Card>
           </div>
 
-          {/* Interesses */}
+          {/* Interests */}
           <div>
-            <h3 className="text-2xl font-semibold mb-8">Outros Interesses</h3>
+            <h3 className="text-2xl font-semibold mb-8">Other Interests</h3>
             <Card className="p-6">
               <p className="text-muted-foreground mb-6">
-                Além da programação, tenho diversos interesses que contribuem para uma visão ampla e criativa:
+                Beyond programming, I have various interests that contribute to a broad and creative perspective:
               </p>
               <div className="flex flex-wrap gap-3">
                 {interests.map((interest, index) => (
@@ -113,13 +113,13 @@ const ContactSection = () => {
               </div>
             </Card>
 
-            {/* Objetivo */}
+            {/* Objective */}
             <Card className="mt-6 p-6">
-              <h4 className="text-lg font-semibold mb-3">Meu Objetivo</h4>
+              <h4 className="text-lg font-semibold mb-3">My Objective</h4>
               <p className="text-muted-foreground">
-                Procuro oportunidades como Estágio, Jovem Aprendiz, Junior ou Treinamento 
-                em programação web, com foco em criação de sites, desenvolvimento de sistemas web, 
-                interfaces responsivas e uso de tecnologias modernas como React, JavaScript, PHP, MySQL e frameworks modernos.
+                I am seeking opportunities as an Intern, Apprentice, Junior, or Trainee 
+                in web development, focused on building websites, web applications, 
+                responsive interfaces, and working with modern technologies such as React, JavaScript, PHP, MySQL, and modern frameworks.
               </p>
             </Card>
           </div>

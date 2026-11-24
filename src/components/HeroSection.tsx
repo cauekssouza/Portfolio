@@ -17,14 +17,14 @@ const HeroSection = () => {
             Cauê Klosoviski Stadler de Souza
           </h1>
           <h2 className="text-2xl md:text-3xl mb-4 text-white/90">
-            Olá
+            Hello
           </h2>
           <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto leading-relaxed mb-4">
-            Estudante de Engenharia de Software apaixonado por criar experiências web incríveis.
-            Especializado em React, JavaScript e tecnologias modernas.
+            Software Engineering student passionate about creating amazing web experiences.
+            Specialized in React, JavaScript, and modern web technologies.
           </p>
           <p className="text-base md:text-lg text-white/70 max-w-xl mx-auto">
-            🔍 Em busca de oportunidades como <strong>Estágio</strong>, <strong>Jovem Aprendiz</strong>, <strong>Junior</strong> ou <strong>Trainee</strong>
+            🔍 Looking for opportunities as an <strong>Intern</strong>, <strong>Apprentice</strong>, <strong>Junior</strong>, or <strong>Trainee</strong>
           </p>
         </div>
 
@@ -34,14 +34,14 @@ const HeroSection = () => {
             variant="secondary"
             className="bg-white text-primary hover:bg-white/90 px-8 py-3"
           >
-            Ver Projetos
+            View Projects
           </Button>
           <Button 
             size="lg" 
             variant="outline"
             className="border-white text-white hover:bg-white hover:text-primary px-8 py-3"
           >
-            Entrar em Contato
+            Get in Touch
           </Button>
         </div>
 

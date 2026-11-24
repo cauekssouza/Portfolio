@@ -4,14 +4,14 @@ import { Calendar, MapPin, Award, BookOpen } from "lucide-react";
 
 const ExperienceSection = () => {
   const courses = [
-    { name: "Spring Boot 3: API Rest em Java", provider: "Alura", hours: "10h", year: "2024" },
-    { name: "Gestão de Projetos e Metodologias Ágeis", provider: "Santander Open Academy", hours: "8h", year: "2024" },
-    { name: "Curso Ciência da Computação de Harvard no Brasil", provider: "Fundação Estudar", hours: "70h", year: "2024" },
-    { name: "Python Mundo 1, 2 e 3", provider: "Curso em Vídeo", hours: "120h", year: "2023" },
-    { name: "Curso Javascript", provider: "Curso em Vídeo", hours: "40h", year: "2023" },
-    { name: "Curso DESENVOLVENDO APLICAÇÕES MOBILE COM ANDROID STUDIO", provider: "Fundação Bradesco", hours: "15h", year: "2025"},
+    { name: "Spring Boot 3: REST API in Java", provider: "Alura", hours: "10h", year: "2024" },
+    { name: "Project Management and Agile Methodologies", provider: "Santander Open Academy", hours: "8h", year: "2024" },
+    { name: "Harvard Computer Science Course in Brazil", provider: "Fundação Estudar", hours: "70h", year: "2024" },
+    { name: "Python World 1, 2 & 3", provider: "Curso em Vídeo", hours: "120h", year: "2023" },
+    { name: "JavaScript Course", provider: "Curso em Vídeo", hours: "40h", year: "2023" },
+    { name: "Developing Mobile Applications with Android Studio", provider: "Fundação Bradesco", hours: "15h", year: "2025"},
     { name: "Learn TypeScript Course", provider: "Codeacademy", hours: "10h", year: "2025" },
-    { name: "React: desenvolvendo com JavaScript", provider: "Alura", hours: "14h", year: "2025"},
+    { name: "React: Developing with JavaScript", provider: "Alura", hours: "14h", year: "2025"},
     { name: "PostgreSQL", provider: "Alura", hours: "8h", year: "2025"},
     { name: "Introduction to Data Science", provider: "Cisco", hours: "6h", year: "2025"}
 
@@ -19,32 +19,32 @@ const ExperienceSection = () => {
 
   const experiences = [
     {
-      title: "Representante de Turma",
+      title: "Class Representative",
       company: "PUCPR",
       period: "2023 - 2024",
-      description: "Auxiliei estudantes em reuniões com professores e coordenadores, representando necessidades e melhorias na turma."
+      description: "Assisted students in meetings with professors and coordinators, representing class needs and proposing improvements."
     },
     {
-      title: "Semana Acadêmica Politweek",
+      title: "Politweek Academic Week",
       company: "PUCPR",
       period: "2024",
-      description: "Participação em palestras sobre Apple Developer Academy, Introdução à IA e Carreira de Engenheiro de Software."
+      description: "Attended lectures on the Apple Developer Academy, Introduction to AI, and Software Engineering Careers."
     }
   ];
 
   const travels = [
-    { country: "Estados Unidos", year: "2024" },
+    { country: "United States", year: "2024" },
     { country: "Portugal", year: "2024" },
-    { country: "Reino Unido", year: "2021" }
+    { country: "United Kingdom", year: "2021" }
   ];
 
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Experiência & Educação</h2>
+          <h2 className="text-4xl font-bold mb-4">Experience & Education</h2>
           <p className="text-xl text-muted-foreground">
-            Minha jornada de aprendizado e crescimento profissional
+            My journey of learning and professional growth
           </p>
         </div>
 
@@ -53,7 +53,7 @@ const ExperienceSection = () => {
           <div>
             <div className="flex items-center gap-3 mb-6">
               <Award className="w-6 h-6 text-accent" />
-              <h3 className="text-2xl font-semibold">Experiência Acadêmica</h3>
+              <h3 className="text-2xl font-semibold">Academic Experience</h3>
             </div>
             <div className="space-y-4">
               {experiences.map((exp, index) => (
@@ -73,7 +73,7 @@ const ExperienceSection = () => {
           <div>
             <div className="flex items-center gap-3 mb-6">
               <BookOpen className="w-6 h-6 text-accent" />
-              <h3 className="text-2xl font-semibold">Cursos Complementares</h3>
+              <h3 className="text-2xl font-semibold">Complementary Courses</h3>
             </div>
             <div className="space-y-3">
               {courses.map((course, index) => (
@@ -92,14 +92,14 @@ const ExperienceSection = () => {
           </div>
         </div>
 
-        {/* Experiência Internacional */}
+        {/* International Experience */}
         <Card className="mt-12 p-8">
           <div className="flex items-center gap-3 mb-6">
             <MapPin className="w-6 h-6 text-accent" />
-            <h3 className="text-2xl font-semibold">Experiência Internacional</h3>
+            <h3 className="text-2xl font-semibold">International Experience</h3>
           </div>
           <p className="text-muted-foreground mb-6">
-            Viagens que me proporcionaram experiência em vivenciar novas culturas, aprender idiomas e desenvolver habilidades interpessoais.
+            Travels that gave me the experience of immersing myself in new cultures, learning languages, and developing interpersonal skills.
           </p>
           <div className="flex flex-wrap gap-3">
             {travels.map((travel, index) => (
