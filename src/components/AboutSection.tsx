@@ -16,7 +16,7 @@ const AboutSection = () => {
           <div>
             <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
             <p className="text-muted-foreground mb-4 leading-relaxed">
-              6th-semester Software Engineering student at PUCPR, with a strong focus on front-end and web development. 
+              Software Engineering at PUCPR, with a strong focus on front-end and web development. 
               I have solid knowledge of HTML5, CSS3, JavaScript, PHP, and MySQL, as well as experience building user interfaces focused on usability.
             </p>
             <p className="text-muted-foreground leading-relaxed">
